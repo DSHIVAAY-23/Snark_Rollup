@@ -1,0 +1,21 @@
+{
+    "accounts_root": "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "intermediate_root": "0x123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "accounts_pubkey": [
+      ["0x23456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef", "0x3456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"]
+    ],
+    "accounts_balance": ["100"],
+    "sender_pubkey": ["0x23456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef", "0x3456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"],
+    "sender_balance": "100",
+    "receiver_pubkey": ["0x456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef", "0x56789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"],
+    "receiver_balance": "50",
+    "amount": "50",
+    "signature_R8x": "0x6789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456",
+    "signature_R8y": "0x789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456",
+    "signature_S": "1234567890abcdef",
+    "sender_proof": ["0x1234567890abcdef"],
+    "sender_proof_pos": ["0x01"],
+    "receiver_proof": ["0x23456789abcdef"],
+    "receiver_proof_pos": ["0x01"],
+    "enabled": 1
+  }
