@@ -174,7 +174,6 @@ component main = LeafExistence(2);
 ## 4. Verify a single transaction
 
 All state in a rollup chain is stored in a tree, whose root is kept on chain and can only be changed by submitting a snark proof which certifies valid state transitions off chain. For this tutorial, since we are doing ERC20 style transfers we can store user balance in the leaf of merkel tree. Let's find out more!
-![img1](./img/img1.png)
 
 ### Account format
 Each account is represented by a single leaf in the accounts tree. It is calculated by hashing the following components in the following order:
@@ -199,7 +198,7 @@ class Account = {
 	balance : int 
 } 
 ```
-![img2](./img/img2.png)
+
 
 ### Transaction 
 For each SNARK, we construct a Transactions Merkle tree, whose leaves are the transactions processed by the SNARK.
